@@ -3,6 +3,43 @@ html{
     margin:0;
     background: #0c0207;
     }
+h1  {
+            color: #fff;
+            margin: 90px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 50px;
+            letter-spacing: 30px;
+            opacity: 1;
+
+            background-image: linear-gradient(45deg, #000, #fff, #000, #FFDEE9, #000);
+            background-size: 90%;
+            -webkit-background-clip: text;
+            -moz-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            -webkit-text-fill-color: transparent;
+}
+.loader {
+  font-size: 5rem;
+  color: white;
+  position: relative;
+}
+.loader span {
+  mix-blend-mode: difference;
+}
+.loader::after{
+  content: '';
+  position: absolute;
+  height: 100% - 40px;
+  left: 0;
+  top: 20px;
+  width: 30%;
+  background-color: white;
+  z-index: -1;
+  color: black;
+  overflow:hidden;
+  animation: animate 4s infinite linear;
+}
+
 #marco{
     width: 1325px;
     height: 500px;
@@ -38,6 +75,11 @@ html{
     }
 
 /* Animacion edificios */
+   @keyframes animate {
+     0%,
+     100% {transform: translateX(0px);}
+     50% { transform: translateX(250px);}
+   }
 
    @keyframes  animar_edificios {
         from { background-position: 0 0; }
