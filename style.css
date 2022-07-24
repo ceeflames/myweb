@@ -10,7 +10,7 @@ h1  {
             font-size: 50px;
             letter-spacing: 30px;
             opacity: 1;
-
+            position:relative;
             background-image: linear-gradient(45deg, #000, #fff, #000, #FFDEE9, #000);
             background-size: 90%;
             -webkit-background-clip: text;
@@ -30,7 +30,7 @@ h1  {
   content: '';
   position: absolute;
   height: 100% - 40px;
-  left: 0;
+  left: 8120px;
   top: 20px;
   width: 30%;
   background-color: white;
