@@ -37,10 +37,10 @@ h1  {
   top: 20px;
   width: 30%;
   background-color: black;
-  z-index: -5;
+  z-index: -4;
   color: red;
   overflow:hidden;
-  animation: animate 3s infinite linear;
+  animation: animate 5s infinite linear;
 }
 @keyframes animate {
   0%,
