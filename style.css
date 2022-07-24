@@ -8,6 +8,7 @@ h1  {
             margin: 90px;
             font-family: Verdana, Geneva, Tahoma, sans-serif;
             font-size: 50px;
+            text-align: center;
             letter-spacing: 30px;
             opacity: 1;
             position:relative;
@@ -27,6 +28,7 @@ h1  {
 
 .loader span  {
   mix-blend-mode: difference;
+  text-align: center;
 }
 
 .loader::after{
