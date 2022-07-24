@@ -36,11 +36,11 @@ h1  {
   left: 0px;
   top: 20px;
   width: 30%;
-  background-color: blue;
-  z-index: -4;
+  background-color: green;
+  z-index: -6;
   color: red;
   overflow:hidden;
-  animation: animate 5s infinite linear;
+  animation: animate 4s infinite linear;
 }
 @keyframes animate {
   0%,
