@@ -37,7 +37,7 @@ h1  {
   top: 20px;
   width: 30%;
   background-color: green;
-  z-index: -10;
+  z-index: -5;
   color: red;
   overflow:hidden;
   animation: animate 4s infinite linear;
