@@ -18,19 +18,22 @@ h1  {
             -webkit-text-fill-color: transparent;
             -webkit-text-fill-color: transparent;
 }
+
 .loader {
-  font-size: 3rem;
+  font-size: 5rem;
   color: white;
   position: relative;
 }
-.loader span {
+
+.loader span  {
   mix-blend-mode: difference;
 }
+
 .loader::after{
   content: '';
   position: absolute;
-  height: 100% - 40px;
-  left: 8120px;
+  height: calc(100% - 40px);
+  left: 0px;
   top: 20px;
   width: 30%;
   background-color: white;
@@ -38,6 +41,15 @@ h1  {
   color: red;
   overflow:hidden;
   animation: animate 4s infinite linear;
+}
+@keyframes animate {
+  0%,
+  100% {
+    transform: translateX(0px);
+  }
+  50% {
+    transform: translateX(250px);
+  }
 }
 
 #marco{
@@ -73,13 +85,6 @@ h1  {
     -moz-animation: animar_edificios 120s linear infinite;
     position: absolute;
     }
-
-/* Animacion edificios */
-   @keyframes animate {
-     0%,
-     100% {transform: translateX(0px);}
-     50% { transform: translateX(250px);}
-   }
 
    @keyframes  animar_edificios {
         from { background-position: 0 0; }
