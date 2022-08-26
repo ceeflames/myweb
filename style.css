@@ -163,7 +163,6 @@ h1  {
     }
 #hours, #skills {
   margin-top: 30px;
-  font-size: 1.2em;
   color: white;
   font-weight: bold;
 }
@@ -183,7 +182,6 @@ h1  {
   width: 100%;
 }
 #hours > span, #skills>span {
-  font-size: 1.3em;
   text-decoration: underline #9C880CFF;
 }
 #final {
